@@ -20,9 +20,12 @@ As part of the Udacity Data Scientist Nanodegree, I read the post by Josh under 
 To this end, I analyzed the 2020 Stack Overflow Developer Survey (https://insights.stackoverflow.com/survey) and focused on the salaries, working hours, and coding experience of developers. Identifying some common traits could provide novices in the field with some guidelines regarding which jobs to pursue to become satisfied themselves.
 
 I explored the following questions:
-2. Are developers with a higher salary more satisfied?
-3. To which extent do the working hours influence job satisfaction?
-4. Do experienced programmers tend to be more satisfied than their less experienced colleagues?
+
+1. Are developers with a higher salary more satisfied?
+
+2. To which extent do the working hours influence job satisfaction?
+
+3. Do experienced programmers tend to be more satisfied than their less experienced colleagues?
 
 In addition to these questions, which are also addressed in the related Medium post under (...), I explored whether using these three variables, one could build a machine learning model that enables predicting job satisfaction of developers. To this end, I tested a logistic regression, a decision tree, and a random forest model.
 
