@@ -9,32 +9,35 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+The code should run with no issues using Python version 3.0 or older.
+Libraries that were used for the analysis are Pandas, Numpy, Matplotlib, Seaborn, and Scikit-learn.
+
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+As part of the Udacity Data Scientist Nanodegree, I read the post by Josh under https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711 which gave some instructions on how to become a developer. Afterwards, I started to wonder whether satisfied individuals in this field share any common traits.
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+To this end, I analyzed the 2020 Stack Overflow Developer Survey (https://insights.stackoverflow.com/survey) and focused on the salaries, working hours, and coding experience of developers. Identifying some common traits could provide novices in the field with some guidelines regarding which jobs to pursue to become satisfied themselves.
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+I explored the following questions:
+2. Are developers with a higher salary more satisfied?
+3. To which extent do the working hours influence job satisfaction?
+4. Do experienced programmers tend to be more satisfied than their less experienced colleagues?
+
+In addition to these questions, which are also addressed in the related Medium post under (...), I explored whether using these three variables, one could build a machine learning model that enables predicting job satisfaction of developers. To this end, I tested a logistic regression, a decision tree, and a random forest model.
 
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
-
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+The Jupyter notebook analyzing_job_satisfaction.ipynb provides all the code that was used for the analysis.
 
 ## Results<a name="results"></a>
 
 The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The results indicate that satisfied developers represent a heterogenous group consisting of individuals working both short and long hours and either being decades long experts in their field or having started only some years ago. Only a higher salary seems to be related with job satisfaction. Furthermore, the exploration revealed that the three examined variables do not enable to build a good machine learning model to predict job satisfaction.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+I want to give credit to Stack Overflow for the data. Also, I relied on numerous posts on Stack Overflow when stuck with any question. I also want to thank Josh and the rest of the Udacity team for providing this code, the very useful instructions and guidelines for completing this project. 
+Otherwise, feel free to use the code here as you would like! 
 
