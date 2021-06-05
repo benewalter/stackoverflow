@@ -36,11 +36,12 @@ The Jupyter notebook analyzing_job_satisfaction.ipynb provides all the code that
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](https://benewalter.medium.com/how-to-become-a-satisfied-developer-lessons-from-the-2020-stack-overflow-developer-survey-7faf3b6c63ab).
 The results indicate that satisfied developers represent a heterogenous group consisting of individuals working both short and long hours and either being decades long experts in their field or having started only some years ago. Only a higher salary seems to be related with job satisfaction. Furthermore, the exploration revealed that the three examined variables do not enable to build a good machine learning model to predict job satisfaction.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-I want to give credit to Stack Overflow for the data. Also, I relied on numerous posts on Stack Overflow when stuck with any question. I also want to thank Josh and the rest of the Udacity team for providing this code, the very useful instructions and guidelines for completing this project. 
+I want to give credit to Stack Overflow for the data. Also, I relied on numerous posts on Stack Overflow when stuck with any question. 
+I also want to thank Josh and the rest of the Udacity team for providing this code, the very useful instructions and guidelines for completing this project. 
 Otherwise, feel free to use the code here as you would like! 
 
